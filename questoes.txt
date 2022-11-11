@@ -1,0 +1,14 @@
+
+02) const array1 = [2,10,22,33,55,11];
+const total = array1.reduce((total, currentElement) => total + currentElement);
+console.log (total);
+
+
+03)const array1 = [2,10,22,33,55,11];
+const ordenarlista = array1.sort((a,b) => b - a);
+console.log (ordenarlista);
+
+
+04)const array1 = [2,10,22,33,55,11];
+const total = array1.reduce((total, currentElement) => total + currentElement /array1.length);
+console.log (total);
